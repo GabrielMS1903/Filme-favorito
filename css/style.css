@@ -1,0 +1,126 @@
+#nav-p > li, a{
+    background-color: rgb(7, 56, 11) ;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #fff ;
+}
+
+#nav-p > li:hover, a:hover{
+    background-color: rgb(95, 95, 95);
+    text-decoration: none;
+    cursor: grab;
+    color: rgb(207, 184, 184) ;
+}
+
+
+
+#container_above > h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+    margin-top: 15px;
+
+    font-size: 35px;
+    color: black;
+    
+  
+}
+
+#container_above > p {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+#container_sinopse > h2   {
+    display: flex;
+    justify-content: center;
+}
+
+#container_sinopse > p  {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    color: #fff;
+    font-size: 18px;
+}
+
+#container_sinopse > img   {
+    width: 50%;
+    margin-left: 400px;
+    border-radius: 2%;
+    
+   
+}
+
+#container_about > h3, h4 {
+    color: black;
+    font-size: 25px;
+    display: flex;
+   justify-content:start;
+   margin-left: 120px;
+    margin-top: 10px;
+}
+
+#container_about, #p1, #p2, #p3, #p4 {
+    color: #fff;
+    margin-right: 120px;
+    margin-left: 120px;
+    text-align:justify;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+
+
+#video > iframe {
+    width: 560px;
+     height:315px;
+     margin-left: 670px;
+     margin-top: 40px;
+     border-radius: 2%;
+}
+
+#video > h5 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+footer > img {
+    width: 200px;
+    display: flex;
+    margin-top: 3px;
+   margin-left: 840px;
+   background-color: rgb(7, 56, 11);;
+    
+}
+
+footer > a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+   
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: rgb(7, 56, 11);;
+}
+
+footer > a:hover {
+  
+    text-decoration: none;
+    color:rgb(217, 226, 218);
+    cursor: grab;
+}
+
+footer {
+    background-color: rgb(7, 56, 11);;
+    border: 0.5px solid rgb(7, 56, 11) ;
+    border-radius: 10px;
+}
